@@ -1,6 +1,6 @@
 FROM nginx
 
-EXPOSE 443 80
+EXPOSE 9200
 
 COPY entrypoint.sh /
 COPY nginx.conf /etc/nginx/nginx.conf
